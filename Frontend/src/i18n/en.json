@@ -1,0 +1,27 @@
+{
+  "app": {
+    "title": "Krishi Mitra",
+    "dashboard": "Dashboard",
+    "escalation": "Escalation"
+  },
+  "dashboard": {
+    "askQuery": "Ask a Query",
+    "askQueryDesc": "Submit your farming questions using text, voice, or images.",
+    "weatherMarket": "Weather & Market",
+    "weatherMarketDesc": "Stay updated on weather, crop prices, and tips."
+  },
+  "query": {
+    "placeholder": "Write your query here...",
+    "voice": "Voice",
+    "attach": "Attach",
+    "submit": "Submit",
+    "submitting": "Submitting..."
+  },
+  "response": {
+    "farmer": "Farmer",
+    "issue": "Issue",
+    "status": "Status",
+    "viewDetails": "View Details",
+    "markResolved": "Mark Resolved"
+  }
+}

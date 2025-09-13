@@ -1,0 +1,54 @@
+.otp-screen {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom right, #16a34a, #facc15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background: linear-gradient(to bottom right, rgba(254, 243, 199, 0.7), rgba(220, 252, 231, 0.7)),
+              url('https://wallpapercave.com/wp/wp6857945.jpg') no-repeat center center/cover;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
+.otp-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  animation: slideUp 0.8s ease-out;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #16a34a, #facc15);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
