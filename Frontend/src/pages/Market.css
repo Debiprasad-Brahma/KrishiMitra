@@ -1,0 +1,54 @@
+.local-market-screen {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #f0fdf4, #fefce8);
+  font-family: 'Baloo 2', cursive;
+  color: #14532d;
+}
+
+.local-market-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+  background: #ffffffcc;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Buyers Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #c7f0d6;
+}
+
+th {
+  background-color: #d1fae5;
+  font-weight: 700;
+}
+
+/* Alerts Section */
+.alerts-section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Benefits Section */
+.benefits-section ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}

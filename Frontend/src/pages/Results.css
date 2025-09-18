@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap');
+
+.results-screen {
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(
+                to bottom right, 
+                rgba(250, 255, 240, 0.85), 
+                rgba(240, 255, 229, 0.85)
+              ),
+              url('https://static.vecteezy.com/system/resources/previews/026/797/626/non_2x/farmer-s-hands-over-farm-plants-realistic-image-ultra-hd-high-design-very-detailed-free-photo.jpg') 
+              no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Baloo 2', cursive;
+  overflow-x: hidden;
+}
+
+.results-screen h2 {
+  text-align: center;
+  color: #14532d;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  text-shadow: 2px 2px 6px rgba(255,255,255,0.7);
+}
+
+/* Cards */
+.result-card {
+  background: rgba(255,255,255,0.9);
+  padding: 1.5rem 2rem;
+  border-radius: 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 650px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+/* Uploaded image */
+.uploaded-image {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.uploaded-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.uploaded-image img:hover {
+  transform: scale(1.03);
+}
+
+/* Scrollable suggestions panel */
+.suggestions-card {
+  max-height: 280px;
+  overflow-y: auto;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+
+.suggestions-card ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+.suggestions-card li {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  color: #14532d;
+}
+
+/* Custom scrollbar */
+.suggestions-card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.suggestions-card::-webkit-scrollbar-thumb {
+  background-color: rgba(22, 163, 74, 0.6);
+  border-radius: 4px;
+}
+
+.suggestions-card::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.2);
+  border-radius: 4px;
+}
+
+/* Feedback buttons */
+.feedback-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.thumb-btn {
+  padding: 0.8rem 1.4rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: linear-gradient(to right, #16a34a, #facc15);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.thumb-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* Escalate button */
+.btn-escalate {
+  display: block;
+  margin: 1rem auto 0 auto;
+  padding: 0.9rem 1.6rem;
+  border: none;
+  border-radius: 0.6rem;
+  background: #dc2626;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-escalate:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .result-card {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .results-screen h2 {
+    font-size: 1.8rem;
+  }
+}

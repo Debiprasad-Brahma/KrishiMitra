@@ -1,0 +1,173 @@
+{
+  "app": {
+    "title": "KrishiMitra",
+    "subtitle": "Your AI Farming Assistant",
+    "dashboard": "Dashboard",
+    "escalation": "Escalation"
+  },
+  "splash": {
+    "title": "KrishiMitra",
+    "subtitle": "Your AI Farming Assistant"
+  },
+  "auth": {
+    "loginTitle": "Login to KrishiMitra",
+    "enterPhone": "Enter your phone number",
+    "sendOTP": "Send OTP",
+    "sending": "Sending...",
+    "verifyPhone": "Verify Phone",
+    "otpSentTo": "OTP sent to",
+    "enterOTP": "Enter OTP",
+    "verify": "Verify",
+    "verifying": "Verifying...",
+    "invalidPhone": "Enter a valid 10-digit phone number",
+    "invalidOTP": "Enter 6-digit OTP",
+    "otpFailed": "Invalid OTP",
+    "loginFailed": "Failed to send OTP"
+  },
+  "language": {
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "malayalam": "Malayalam", 
+    "hindi": "Hindi",
+    "tamil": "Tamil",
+    "odia": "Odia"
+  },
+  "languages": {
+    "english": "English",
+    "malayalam": "Malayalam",
+    "hindi": "Hindi", 
+    "tamil": "Tamil",
+    "odia": "Odia"
+  },
+  "dashboard": {
+    "title": "KrishiMitra Dashboard",
+    "askAI": "Ask AI",
+    "weatherUpdates": "Weather Updates",
+    "marketPrices": "Market Prices",
+    "cropCalendar": "Crop Calendar",
+    "pestAlerts": "Pest Alerts",
+    "notifications": "Notifications",
+    "myProfile": "My Profile",
+    "digitalPayments": "Digital Payments",
+    "logisticsSupport": "Logistics Support",
+    "waterIrrigation": "Water & Irrigation",
+    "trainingSchemes": "Training & Schemes",
+    "marketTrends": "Market Trends",
+    "communityForum": "Community Forum",
+    "farmerHelpline": "Farmer Helpline",
+    "secureLedger": "Secure Ledger"
+  },
+  "query": {
+    "title": "Ask AI",
+    "subtitle": "Get instant answers about crops, fertilizers, pests, irrigation, or market prices. You can also upload an image.",
+    "placeholder": "Type your query or use microphone...",
+    "placeholderVoice": "Write your query here...",
+    "voice": "Voice",
+    "attach": "Attach",
+    "uploadImage": "Upload Image",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "sending": "Sending...",
+    "enterQuery": "Please enter a query or upload an image.",
+    "submitFailed": "Failed to submit query",
+    "analyzing": "Analyzing...",
+    "maxImages": "Maximum 5 images allowed",
+    "imageRequired": "Please select an image file",
+    "imageTooLarge": "Image size should be less than 5MB"
+  },
+  "results": {
+    "title": "AI Analysis Result",
+    "yourQuery": "Your Query:",
+    "aiResponse": "AI Response:",
+    "helpful": "Helpful",
+    "notHelpful": "Not Helpful",
+    "escalateToOfficer": "Escalate to Officer",
+    "thankYou": "Thank you for your feedback!",
+    "noQuery": "No query submitted",
+    "noResponse": "No response available. Please try submitting your query again."
+  },
+  "profile": {
+    "title": "Farmer Profile",
+    "profileTab": "Profile",
+    "historyTab": "Query History",
+    "farmerID": "Farmer ID",
+    "name": "Name",
+    "phone": "Phone Number",
+    "language": "Language",
+    "enterName": "Enter your name",
+    "notSet": "Not set",
+    "editProfile": "Edit Profile",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "logout": "Logout",
+    "totalQueries": "Total Queries",
+    "memberSince": "Member Since",
+    "queryHistory": "Query History",
+    "question": "Q",
+    "answer": "A",
+    "noQueries": "No queries yet. Start asking questions to see your history!",
+    "updateSuccess": "Profile updated successfully!",
+    "updateFailed": "Failed to update profile",
+    "invalidImageType": "Please select an image file",
+    "imageTooLarge": "Image size should be less than 5MB",
+    "imageUploadFailed": "Failed to upload image"
+  },
+  "escalation": {
+    "title": "Escalate Query",
+    "subtitle": "If the AI response was unclear, escalate to your local agriculture officer.",
+    "farmerName": "Farmer Name",
+    "location": "Location",
+    "cropConcerned": "Crop Concerned",
+    "issueDescription": "Issue Description",
+    "enterName": "Enter your name",
+    "enterLocation": "Village / District",
+    "enterCrop": "Eg: Paddy, Banana, Coconut",
+    "describeIssue": "Describe your farming issue...",
+    "submitToOfficer": "Submit to Officer",
+    "sending": "Sending...",
+    "escalationSubmitted": "Escalation Submitted",
+    "escalationMessage": "Your issue has been forwarded to the nearest Krishi Bhavan officer. You will receive a response soon."
+  },
+  "weather": {
+    "title": "Weather & Alerts",
+    "alerts": "Alerts",
+    "monday": "Monday",
+    "tuesday": "Tuesday", 
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "sunny": "Sunny",
+    "cloudy": "Cloudy",
+    "rainy": "Rainy"
+  },
+  "market": {
+    "title": "Market Prices"
+  },
+  "calendar": {
+    "title": "Crop Calendar"
+  },
+  "pest": {
+    "title": "Pest Alerts"
+  },
+  "notifications": {
+    "title": "Notifications"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No"
+  }
+}
